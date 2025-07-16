@@ -12,14 +12,14 @@ int main (){
 
     
 
-    /*Form carta 2*/
+    /*Form carta 1*/
 
     printf("Insira as informações nos campos abaixo para construir a primeira carta do seu Estado de preferência! \n");
 
     printf("Insira uma letra de A a H para identificar um estado: \n");
     scanf("%s", &estado);
 
-    printf("Defina o código da carta usando a letra de identificação do estado seguida de um número de 01 a 04(diferente do código da primeira carta): \n");
+    printf("Defina o código da carta usando a letra de identificação do estado seguida de um número de 01 a 04: \n");
     scanf("%s", &codigo);
 
     printf("Digite uma cidade pertencente ao estado escolhido: \n");
@@ -39,7 +39,6 @@ int main (){
 
     
     /*Carta 2*/
-
     char estado2[20];
     char codigo2[20];
     char cidade2[20];
@@ -48,12 +47,14 @@ int main (){
     float pib2;
     int turisticos2;
 
+    /*Form carta 2*/
+
     printf("\n Insira as informações nos campos abaixo para construir a segunda carta do seu Estado de preferência! \n");
 
     printf("Insira uma letra de A a H para identificar um estado: \n");
     scanf("%s", &estado2);
 
-    printf("Defina o código da carta usando a letra de identificação do estado seguida de um número de 01 a 04: \n");
+    printf("Defina o código da carta usando a letra de identificação do estado seguida de um número de 01 a 04(diferente do código da primeira carta): \n");
     scanf("%s", &codigo2);
 
     printf("Digite uma cidade pertencente ao estado escolhido: \n");
